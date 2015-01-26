@@ -39,7 +39,7 @@ hello();
  }
 
 // add a function to the workout
-a
+
  var workout2 = { exercise2: "Karate",
  	duration2: "02:15:20",
  	note2: "Well ... ",
