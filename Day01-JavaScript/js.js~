@@ -1,0 +1,74 @@
+/* 
+JavaScript Lesson One
+by Per Thykjaer Jensen
+ */
+
+// variables
+ 
+ var a = 1;
+ var b = "one";
+ var c = false;
+ var d = true;
+ var e = null; 
+ 
+// functions 
+ 
+ function hello() {
+ 	document.getElementById("content").style.fontSize = "4em"; // you can change the content of HTML tags like this
+ 	document.getElementById("content").innerHTML = "Yeah, JavaScript can add content to my tags!"; // check the methods here
+ }
+ 
+ // execute a function 
+ 
+ hello();
+ 
+ // object is really a collection of variables
+ 
+ var workout = { exercise: "Jogging",
+ 	duration: "00:35:20",
+ 	note: "Well, just started running again, so ... " 
+ }
+
+// add a function to the workout
+a
+ var workout2 = { exercise2: "Karate",
+ 	duration2: "02:15:20",
+ 	note2: "Well, just started running again, so ... ",
+ 	wrkWrite: function () { return "<p> The function in the workout object: " + this.exercise2 + " " + this.duration2 + "<p>" } 
+ }
+
+document.write( workout2.wrkWrite() ); // execute the object's function
+ 
+// let's change a value here
+// workout.duration = "04:35:02"; 
+ 
+ // write out from the object (and yes this is how to write something in a document)
+ 
+ document.write("<div id=\"exercise\"> <em> Exercise: " 
+ 	+ workout.exercise 
+ 	+ ".</em><br> " 
+ 	+ "Duration: " 
+ 	+ workout.duration 
+ 	+ ".<br> Note: " 
+ 	+ workout.note
+ 	+ "</div>");
+ 
+// you could also use a loop, like this
+  
+for (x in workout) {
+    document.write( workout[x] + "<br>" );
+}
+
+// there is also a while loop, check it out ...
+
+// this function will create an object
+
+function myObject(aname,age){
+	this.theName = aname; // this = a var in this function
+	this.theAge = age;
+}
+
+// instance of the object
+
+var zzz = new myObject( "Yoko", 84);
+document.write("<br>" + zzz.theName );

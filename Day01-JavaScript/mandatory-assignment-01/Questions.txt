@@ -1,0 +1,42 @@
+Mandatory Assignment 1: Opening Hours
+
+CASE: a local shop
+
+Design a one html landing page for the opening hours of a shop. Imagine that it is some sort of local shop, say a barbershop, a florist, a butcher or similar.
+
+The showowner wants to tell costumers whether the shop is open today or not.
+The website must give feedback such as: "The shop is open today from [+ open hours]" or "The shop is closed now, but ... "
+
+If the shop is not open, there should be a link to an online offer of some kind.
+
+
+--- Opening Hours ---
+Monday 		09:00 - 17:30
+Tuesday 	09:00 - 17:30
+Wednesday 	13:00 - 17:30
+Thursday 	09:00 - 17:30
+Friday 		09:00 - 19:30
+Saturday 	09:00 - 14:00
+Sunday 		Closed
+
+
+
+DRAW A FLOWCHART
+Draw a program flowchart for your solution. Use the symbols found on page 23.
+Hand in your flowchart as a .jpg, .png or .svf file.
+( You may use pen and paper, Illustrator, Photoshop or Dia here. )
+
+
+WRITE THE JAVASCRIPT
+Use JavaScript and design a solution.
+
+Tip: use the getDay() method from the date() object.
+
+
+ADVANCED
+If time permits you could use the getHour() method and tell whether the shop is open or not right now. 
+
+
+HAND IN IN ONE ZIP FILE
+Hand in your flowchart, .html, .css, and .js files in ONE zip file in the zip format.
+Not arj, not gz, not tar.gz, not rar - but a ZIP file please.
